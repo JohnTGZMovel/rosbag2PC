@@ -1,9 +1,9 @@
 # Required Dependencies
 
 1. Open3D [Documention](https://github.com/intel-isl/Open3D)
-..* pip install open3d
+* pip install open3d
 2. joblib to enable python multi-threading
-..* pip install joblib
+* pip install joblib
 
 # Workflow
 
