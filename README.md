@@ -27,8 +27,8 @@ sh truedepthandrgb.sh
 * "path_dataset": (path of dataset) eg. "../../dataset/datasetX"
 * "path_intrinsic" : (path of camera intrinsics) eg. "../../dataset/datasetX/_____.json"
 * "voxel_size": (default is 0.05)
-* "icp_method": "color", "
-* "global_registration": "ransac",
+* "icp_method": "color", "point_to_point", "point_to_plane"
+* "global_registration": "ransac", "fgr"
 
 6. Run reconstruction on depth and rgb images
 ```
