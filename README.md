@@ -1,11 +1,11 @@
-#Required Dependencies
+# Required Dependencies
 
 1. Open3D [Documention](https://github.com/intel-isl/Open3D)
 ..* pip install open3d
 2. joblib to enable python multi-threading
 ..* pip install joblib
 
-#Workflow
+# Workflow
 
 1. Extract depth and rgb images from rosbag
 ..* put rosbags into dataset/datasetX (where X is an arbitrary number)
@@ -34,7 +34,7 @@
 7. Point clouds are automatically saved in dataset/datasetX/scene as integrated.ply
 ..* The point clouds can be visualized with open3D using: open3d.io.read_triangle_mesh("folder_path/integrated.ply")
 
-#Workflow (w/o annotation)
+# Workflow (w/o annotation)
 Assuming:
 ..* rosbag is placed in the correct location
 ..* subscriber topics in grabrgb.py and grabdepth.py are set properly
@@ -45,7 +45,7 @@ sh truedepthandrgb.sh
 python run_system.py config/configX/intelrs_d400.json --make --register --refine --integrate
 
 
-#File Directory Structure
+# File Directory Structure
 
 (repo root)
 ├── config
